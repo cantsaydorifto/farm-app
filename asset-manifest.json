@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/farm-app/static/css/main.32532ff7.css",
+    "main.js": "/farm-app/static/js/main.351b16ae.js",
+    "static/media/vegetables.png": "/farm-app/static/media/vegetables.9c32fd32a85313497d4b.png",
+    "index.html": "/farm-app/index.html",
+    "main.32532ff7.css.map": "/farm-app/static/css/main.32532ff7.css.map",
+    "main.351b16ae.js.map": "/farm-app/static/js/main.351b16ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32532ff7.css",
+    "static/js/main.351b16ae.js"
+  ]
+}
