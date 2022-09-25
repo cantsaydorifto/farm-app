@@ -1,0 +1,93 @@
+.cart-container {
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.cart-item-heading {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: xx-large;
+}
+
+.cart-count {
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.cart-item-img {
+    height: 75px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.cart-name-div {
+    font-size: medium;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.cart-item-card {
+    display: flex;
+    background-color: lavender;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    gap: 20px;
+    align-items: center;
+    height: 100px;
+}
+
+.remove-item-button {
+    height: 30%;
+    border-radius: 8px;
+    padding: 5px;
+    border: none;
+    background-color: rgb(197, 197, 252);
+    transition: background-color 150ms;
+}
+
+.remove-item-button:hover {
+    background-color: rgb(152, 152, 248);
+}
+
+.checkout-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: x-large;
+    margin: 20px 0px;
+}
+
+.checkout-line{
+    margin: 20px 20px;
+
+}
+
+.change-count-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 900;
+    width: 30px;
+}
+
+.cart-item-count{
+    text-align: center;
+    width: 20px;
+}
+
+.checkout-price-div{
+    text-align: center;
+    width: 100px;
+}

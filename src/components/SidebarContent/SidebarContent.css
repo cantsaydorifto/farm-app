@@ -1,0 +1,47 @@
+.sidebarContent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-sidebar-heading{
+    color: blueviolet;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 5px;
+    font-family: Helvetica, sans-serif;
+}
+
+.sidebar-heading > h2{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: black;
+}
+
+.sidebar-heading{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-element{
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 200ms,background-color 300ms;
+    user-select: none;
+    position: relative;
+    font-size: larger;
+}
+
+.link-element:hover{
+    opacity: 0.65;
+    background-color: gray;
+}
